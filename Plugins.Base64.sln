@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowSynx.Plugins.Base64", "src\FlowSynx.Plugins.Base64.csproj", "{1E193BA0-1258-413C-AED0-213EBF98355C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7AC4BFEB-7690-4A0F-8C70-E5FFD5615061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{51AA6910-974D-4C55-91C9-ACEA06C23D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowSynx.Plugin.Base64.UnitTests", "tests\FlowSynx.Plugin.Base64.UnitTests.csproj", "{A09C0968-0580-42E2-A4BC-2383AB1A5C5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E193BA0-1258-413C-AED0-213EBF98355C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E193BA0-1258-413C-AED0-213EBF98355C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E193BA0-1258-413C-AED0-213EBF98355C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E193BA0-1258-413C-AED0-213EBF98355C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09C0968-0580-42E2-A4BC-2383AB1A5C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09C0968-0580-42E2-A4BC-2383AB1A5C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09C0968-0580-42E2-A4BC-2383AB1A5C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09C0968-0580-42E2-A4BC-2383AB1A5C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E193BA0-1258-413C-AED0-213EBF98355C} = {7AC4BFEB-7690-4A0F-8C70-E5FFD5615061}
+		{A09C0968-0580-42E2-A4BC-2383AB1A5C5F} = {51AA6910-974D-4C55-91C9-ACEA06C23D58}
+	EndGlobalSection
+EndGlobal

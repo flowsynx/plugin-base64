@@ -1,4 +1,4 @@
-# FlowSynx Base64 Plugin
+## FlowSynx Base64 Plugin
 
 The **FlowSynx Base64 Plugin** is a built-in, plug-and-play integration for the FlowSynx automation engine. It enables encoding, decoding, and validation of Base64-encoded data within workflows, with no custom coding required.
 
